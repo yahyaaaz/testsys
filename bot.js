@@ -25,7 +25,7 @@ const sql = require("sqlite");
 ,spee={}; 
 
 client.on('message', message => {
- var prefix = "-";
+ var prefix = "y";
 if (message.content.startsWith(prefix + 'help')) {
     let pages = [
 	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
@@ -2112,7 +2112,7 @@ client.on("message", message => {
 });
 
 var adminprefix = '&'
-const developers = ['328333685088845824'] //الاي دى حقك
+const developers = ['529646570983915551'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;

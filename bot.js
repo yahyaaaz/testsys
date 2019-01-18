@@ -2111,7 +2111,7 @@ client.on("message", message => {
     }
 });
 
-var adminprefix = '&'
+var adminprefix = '-'
 const developers = ['529646570983915551'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');

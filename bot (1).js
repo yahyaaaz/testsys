@@ -21,11 +21,11 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
  const dateFormat = require('dateformat'); 
  const pretty = require('pretty-ms') 
-const prefix = "-";
+const prefix = "y";
 
 client.on("ready", () => {
   console.log("Yossif | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`حماية `, 'https://www.twitch.tv/hix');
+  client.user.setGame(`yahya ... `, 'https://www.twitch.tv/hix');
 });
 
 
